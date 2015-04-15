@@ -11,4 +11,13 @@
         android:layout_centerVertical="true"
         android:text="This is a button" />
 
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+
 </RelativeLayout>

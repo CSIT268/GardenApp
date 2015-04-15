@@ -15,6 +15,7 @@ public final class R {
     }
     public static final class id {
         public static final int button1=0x7f060003;
+        public static final int button2=0x7f060004;
         public static final int item_detail=0x7f060002;
         public static final int item_detail_container=0x7f060000;
         public static final int item_list=0x7f060001;
