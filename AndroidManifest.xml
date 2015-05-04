@@ -26,6 +26,10 @@
             android:name=".Plant"
             android:label="@string/title_activity_plant" >
         </activity>
+        <activity
+            android:name=".Browse"
+            android:label="@string/title_activity_browse" >
+        </activity>
     </application>
 
 </manifest>

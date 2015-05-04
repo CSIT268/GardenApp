@@ -7,5 +7,17 @@
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="search"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search" />
+     <item
+        android:id="@+id/products"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="asdf"
+ />
 
 </menu>
