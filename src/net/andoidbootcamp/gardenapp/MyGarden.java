@@ -14,18 +14,12 @@ public class MyGarden extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_my_garden);
-<<<<<<< HEAD
+		
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayShowHomeEnabled(false);
         actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setIcon(android.R.color.transparent);
 
-=======
-		
-		//****test
-		startActivity(new Intent(MyGarden.this, Browse.class));
-		//********
->>>>>>> cb57d4f624a2d4f106d8dfaf1c6a28f1bc066c2e
 	}
 
 	@Override
