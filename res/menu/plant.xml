@@ -1,11 +1,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="net.andoidbootcamp.gardenapp.Plant" >
+    tools:context="net.andoidbootcamp.gardenapp.MyGarden" >
 
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings"/>
+	<item
+        android:id="@+id/mygarden"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="My Garden"/>
+	<item
+        android:id="@+id/browse"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Browse"/>
+
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="search"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search" />
+
 
 </menu>
