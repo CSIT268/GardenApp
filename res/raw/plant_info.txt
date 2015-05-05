@@ -1,0 +1,15 @@
+﻿Carrot
+Vegetable
+4,5,6,7,8,9,10
+Full Sun
+Sandy
+Neutral
+Carrots are a popular root vegetable that are easy to grow in sandy soil. They are resistant to most pests and diseases, and are a good late season crop that can tolerate frost. Not all carrots are orange; varieties vary in color from purple to white.
+
+Peppers
+Vegetable
+1,2,3,4,5,6,7,8,9,10,11
+Full Sun
+Loamy
+Neutral
+Peppers are a tender, warm-season crop. They resist most pests and offer something for everyone: spicy, sweet or hot, and a variety of colors, shapes and sizes. For this page, we will focus on sweet bell peppers.

@@ -1,6 +1,7 @@
 package net.andoidbootcamp.gardenapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,6 +12,10 @@ public class MyGarden extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_my_garden);
+		
+		//****test
+		startActivity(new Intent(MyGarden.this, Browse.class));
+		//********
 	}
 
 	@Override
