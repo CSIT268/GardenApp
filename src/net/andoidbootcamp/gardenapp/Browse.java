@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class Browse extends Activity 
 {
-	private static List<PlantInfo> plants = null;
+	private static List<PlantInfo> plants = null; // list of all plants
 	private ListView listViewPlants;
 
 	@Override
@@ -28,7 +28,6 @@ public class Browse extends Activity
 		listViewPlants = (ListView)findViewById(R.id.listViewPlants);
 		loadPlants(getAssets());
 		
-		//test.setText(plants.get(0).getDes());
 		for (PlantInfo plant : plants)
 		{
 			Log.d("test", plant.getDes());	
@@ -44,9 +43,7 @@ public class Browse extends Activity
 	private void loadPlants(AssetManager assets)
 	{
 		if (plants == null)
-		{
-			Log.d("test", "load plants");
-			
+		{			
 			plants = LoadPlants.loadBrowsePlants(assets);
 		}
 	}

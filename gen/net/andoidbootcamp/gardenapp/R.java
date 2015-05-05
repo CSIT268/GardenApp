@@ -26,25 +26,16 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-<<<<<<< HEAD
-        public static final int action_settings=0x7f080003;
-        public static final int browse=0x7f080004;
-        public static final int button1=0x7f080002;
-        public static final int mygarden=0x7f080007;
-        public static final int plant=0x7f080005;
-        public static final int plantDetails=0x7f080001;
-        public static final int plantImage=0x7f080000;
-        public static final int search=0x7f080006;
-=======
         public static final int action_settings=0x7f090005;
+        public static final int browse=0x7f090006;
         public static final int button1=0x7f090004;
         public static final int listViewPlants=0x7f090000;
+        public static final int mygarden=0x7f090009;
+        public static final int plant=0x7f090007;
         public static final int plantDetails=0x7f090003;
         public static final int plantImage=0x7f090002;
-        public static final int products=0x7f090007;
-        public static final int search=0x7f090006;
+        public static final int search=0x7f090008;
         public static final int textView1=0x7f090001;
->>>>>>> cb57d4f624a2d4f106d8dfaf1c6a28f1bc066c2e
     }
     public static final class layout {
         public static final int activity_browse=0x7f030000;
