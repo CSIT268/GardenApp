@@ -83,6 +83,7 @@ public class Plant extends Activity
 			public void onClick(View v) 
 			{
 				StaticVariables.myGarden.add(StaticVariables.selectedPlant);
+				StaticVariables.selectedPlant.setInGarden(true);
 				btnAdd.setVisibility(View.INVISIBLE);
 			}
 		});
