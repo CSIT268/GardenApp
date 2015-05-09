@@ -115,17 +115,38 @@
         android:id="@+id/textViewMyZone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/txtViewPlantName"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="5dp"
-        android:text="My Zone:" />
+        android:gravity="center_vertical"
+        android:text="My Zone:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewMyZoneValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewMyZone"
+        android:layout_alignTop="@+id/textViewMyZone"
+        android:layout_toRightOf="@+id/textViewMyZone"
+        android:gravity="center_vertical"
+        android:text="1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAddPlant"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_action_new" />
 
     <TextView
         android:id="@+id/txtViewPlantName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/textViewMyZone"
+        android:layout_below="@+id/btnAddPlant"
         android:layout_toRightOf="@+id/imageViewPlant"
         android:text="Peppers"
         android:textSize="30sp" />
@@ -135,33 +156,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textViewMyZone"
-        android:layout_below="@+id/textViewMyZone"
+        android:layout_alignTop="@+id/txtViewPlantName"
+        android:layout_marginRight="5dp"
         android:src="@drawable/ic_launcher" />
 
     <TextView
         android:id="@+id/textViewPlantType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageViewPlant"
         android:layout_alignLeft="@+id/txtViewPlantName"
-        android:layout_below="@+id/txtViewPlantName"
         android:text="Vegetable" />
-
-    <TextView
-        android:id="@+id/textViewMyZoneValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textViewMyZone"
-        android:layout_marginLeft="5dp"
-        android:layout_toRightOf="@+id/textViewMyZone"
-        android:text="1" />
-
-    <Button
-        android:id="@+id/btnPlantAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/txtViewPlantName"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="+" />
 
 </RelativeLayout>

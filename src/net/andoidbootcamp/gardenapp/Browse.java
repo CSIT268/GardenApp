@@ -35,7 +35,7 @@ public class Browse extends Activity
 		}
 		
 		listViewPlants.setAdapter(new ArrayAdapter<String>(
-				this, R.layout.activity_browse, R.id.txtViewPlantName, plantNames));
+				this, R.layout.activity_browse, R.id.textViewbrowsePlantName, plantNames));
 		listViewPlants.setOnItemClickListener(new OnItemClickListener() 
 		{
 
