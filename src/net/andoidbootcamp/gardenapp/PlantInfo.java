@@ -13,6 +13,7 @@
 //		description
 //		image file name.
 //		inGarden //boolean
+//		Image id
 //
 //******************************************************************
 
@@ -24,9 +25,10 @@ import java.util.List;
 public class PlantInfo 
 {
 
-	private String name, type, soilType, soilPH, des, sunExp, imageFileName;
+	private String name, type, soilType, soilPH, des, sunExp;
 	private List<Integer> hardZones;
 	private boolean inGarden;
+	private String imageIdName;
 	
 	public PlantInfo()
 	{
@@ -38,6 +40,7 @@ public class PlantInfo
 		sunExp =null;
 		hardZones = new ArrayList<Integer>();
 		inGarden = false;
+		imageIdName = null;
 	}
 	
 	public String getName() 
@@ -48,6 +51,7 @@ public class PlantInfo
 	public void setName(String name) 
 	{
 		this.name = name;
+		imageIdName = name.toLowerCase();
 	}
 
 	public String getType() 
@@ -118,14 +122,6 @@ public class PlantInfo
 		}
 	}
 
-	public String getImageFileName() {
-		return imageFileName;
-	}
-
-	public void setImageFileName(String imageFileName) {
-		this.imageFileName = imageFileName;
-	}
-
 	public boolean isInGarden() {
 		return inGarden;
 	}
@@ -134,6 +130,8 @@ public class PlantInfo
 		this.inGarden = inGarden;
 	}
 
-	
+	public String getImageIdName() {
+		return imageIdName;
+	}
 	
 }

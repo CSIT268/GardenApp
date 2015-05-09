@@ -12,9 +12,9 @@
         android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageViewPlant"
+        android:layout_alignLeft="@+id/imageViewPlantImage"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/imageViewPlant"
+        android:layout_below="@+id/imageViewPlantImage"
         android:layout_marginTop="20dp" >
 
         <LinearLayout
@@ -147,24 +147,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnAddPlant"
-        android:layout_toRightOf="@+id/imageViewPlant"
+        android:layout_toRightOf="@+id/imageViewPlantImage"
         android:text="Peppers"
         android:textSize="30sp" />
 
     <ImageView
-        android:id="@+id/imageViewPlant"
+        android:id="@+id/imageViewPlantImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textViewMyZone"
         android:layout_alignTop="@+id/txtViewPlantName"
-        android:layout_marginRight="5dp"
-        android:src="@drawable/ic_launcher" />
+        android:layout_marginRight="5dp" />
 
     <TextView
         android:id="@+id/textViewPlantType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageViewPlant"
+        android:layout_alignBottom="@+id/imageViewPlantImage"
         android:layout_alignLeft="@+id/txtViewPlantName"
         android:text="Vegetable" />
 

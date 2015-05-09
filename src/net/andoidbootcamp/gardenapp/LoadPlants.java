@@ -50,7 +50,7 @@ public class LoadPlants
 				read.readLine();
 				
 				line = read.readLine();
-				
+								
 				plants.add(tmp);
 			}
 		}

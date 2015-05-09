@@ -22,9 +22,9 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int btn_my_garden_menu=0x7f020000;
-        public static final int ic_action_new=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
+        public static final int ic_action_new=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int peppers=0x7f020002;
     }
     public static final class id {
         public static final int TextViewDesValue=0x7f08000d;
@@ -37,7 +37,7 @@ public final class R {
         public static final int action_settings=0x7f080013;
         public static final int browse=0x7f080014;
         public static final int btnAddPlant=0x7f080011;
-        public static final int imageViewPlant=0x7f080004;
+        public static final int imageViewPlantImage=0x7f080004;
         public static final int listViewBrowsePlants=0x7f080000;
         public static final int listViewMyGardenPlants=0x7f080002;
         public static final int mygarden=0x7f080017;
