@@ -31,10 +31,7 @@ public class Plant extends Activity
 
 		intVar();
 		displaySelectionPlantInfo();
-		setButtonListeners();
-		
-		
-	
+		setButtonListeners();	
 	}
 	
 	/**
@@ -139,6 +136,7 @@ public class Plant extends Activity
             Intent myGardenIntent = new Intent(this,MyGarden.class); 
             //Start Product Activity
             startActivity(myGardenIntent);
+            finish();
             return true;
         }
 		else if (id == R.id.browse) 
@@ -147,6 +145,7 @@ public class Plant extends Activity
             Intent browseIntent = new Intent(this,Browse.class); 
             //Start Product Activity
             startActivity(browseIntent);
+            finish();
             return true;
         }
         //When Search action item is clicked
@@ -156,6 +155,7 @@ public class Plant extends Activity
             Toast.makeText(getApplicationContext(), "Search!!", Toast.LENGTH_LONG).show();
             return true;	
 	}
+		finish();
         return super.onOptionsItemSelected(item);
 }
 }
