@@ -12,6 +12,7 @@
 //		soil PH
 //		description
 //		image file name.
+//		inGarden //boolean
 //
 //******************************************************************
 
@@ -25,6 +26,7 @@ public class PlantInfo
 
 	private String name, type, soilType, soilPH, des, sunExp, imageFileName;
 	private List<Integer> hardZones;
+	private boolean inGarden;
 	
 	public PlantInfo()
 	{
@@ -35,8 +37,9 @@ public class PlantInfo
 		des = null;
 		sunExp =null;
 		hardZones = new ArrayList<Integer>();
+		inGarden = false;
 	}
-
+	
 	public String getName() 
 	{
 		return name;
@@ -122,7 +125,15 @@ public class PlantInfo
 	public void setImageFileName(String imageFileName) {
 		this.imageFileName = imageFileName;
 	}
-	
+
+	public boolean isInGarden() {
+		return inGarden;
+	}
+
+	public void setInGarden(boolean inGarden) {
+		this.inGarden = inGarden;
+	}
+
 	
 	
 }

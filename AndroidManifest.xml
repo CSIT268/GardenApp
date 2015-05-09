@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MyGarden"
+            android:name="net.andoidbootcamp.gardenapp.MyGarden"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +23,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Plant"
+            android:name="net.andoidbootcamp.gardenapp.Plant"
             android:label="@string/title_activity_plant" >
         </activity>
         <activity
-            android:name=".Browse"
+            android:name="net.andoidbootcamp.gardenapp.Browse"
             android:label="@string/title_activity_browse" >
         </activity>
     </application>

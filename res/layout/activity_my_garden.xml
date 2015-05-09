@@ -9,7 +9,7 @@
     tools:context="net.andoidbootcamp.gardenapp.MyGarden" >
 
     <ListView
-        android:id="@+id/listViewPlants"
+        android:id="@+id/listViewMyGardenPlants"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"

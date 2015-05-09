@@ -8,27 +8,160 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.andoidbootcamp.gardenapp.Plant" >
 
-  <ImageView
-      android:id="@+id/plantImage"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_centerHorizontal="true"
-      android:layout_gravity="center_horizontal" />
-  
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageViewPlant"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageViewPlant"
+        android:layout_marginTop="20dp" >
 
-<ListView
-    android:id="@+id/plantDetails"
-    android:layout_below="@id/plantImage"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content" >
-</ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
 
-<Button
-    android:id="@+id/button1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignBottom="@+id/plantImage"
-    android:layout_alignParentRight="true"
-    android:text="Button" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextViewZones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="Zones:" />
+
+                <TextView
+                    android:id="@+id/TextViewZonesValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1,2,3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/textViewSun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="Sun Exposure:" />
+
+                <TextView
+                    android:id="@+id/textViewSunValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/TextViewSoil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="Soil Type:" />
+
+                <TextView
+                    android:id="@+id/TextViewSoilValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loamy" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/TextViewSoilPh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="Soil Ph:" />
+
+                <TextView
+                    android:id="@+id/TextViewSoilPhValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nuetral" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/TextViewDesValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peppers are a tender, warm-season crop. They resist most pests and offer something for everyone: spicy, sweet or hot, and a variety of colors, shapes and sizes. For this page, we will focus on sweet bell peppers." />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textViewMyZone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:text="My Zone:" />
+
+    <TextView
+        android:id="@+id/txtViewPlantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewMyZone"
+        android:layout_toRightOf="@+id/imageViewPlant"
+        android:text="Peppers"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageViewPlant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewMyZone"
+        android:layout_below="@+id/textViewMyZone"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewPlantType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtViewPlantName"
+        android:layout_below="@+id/txtViewPlantName"
+        android:text="Vegetable" />
+
+    <TextView
+        android:id="@+id/textViewMyZoneValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewMyZone"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textViewMyZone"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/btnPlantAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtViewPlantName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="+" />
 
 </RelativeLayout>

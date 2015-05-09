@@ -6,24 +6,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="net.andoidbootcamp.gardenapp.Browse" >
+    tools:context="net.andoidbootcamp.gardenapp.Browse$PlaceholderFragment" >
 
     <ListView
-        android:id="@+id/listViewPlants"
+        android:id="@+id/listViewBrowsePlants"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true" >
 
     </ListView>
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textViewbrowsePlantName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/listViewPlants"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="84dp"
+        android:layout_centerHorizontal="true"
         android:text="TextView" />
 
 </RelativeLayout>
