@@ -1,6 +1,6 @@
-Carrot
+﻿Carrot
 Vegetable
-Zone:4,5,6,7,8,9,10
+4,5,6,7,8,9,10
 Full Sun
 Sandy
 Neutral
@@ -16,22 +16,15 @@ Peppers are a tender, warm-season crop. They resist most pests and offer somethi
 
 Watermelon
 Fruit
-Zone:3,4,5,6,7,8,9,10,11
+3,4,5,6,7,8,9,10,11
 Full Sun
 Sandy
+Slightly Acidic
 Everyone seems to love juicy watermelon in the summertime. Great for BBQs and other family events. Also great in smoothies.
-
-Squash
-Vegetable
-Zone: Variety
-Full Sun
-Loamy
-Neutral
-Squash is a seasonal vegetable. It is very susceptible to frost and heat damage, but with proper care it will produce a bumper crop with very few plants.
 
 Tomatoe
 Fruit
-Zone:2,3,4,5,6,7,8,9,10
+2,3,4,5,6,7,8,9,10
 Full Sun
 Loamy
 Nuetral
@@ -39,7 +32,7 @@ Tomatoes are America’s favorite garden vegetable. (Yes, we technically eat the
 
 Blackberry
 Fruit
-Zone:5,6,7,8,9,10
+5,6,7,8,9,10
 Full Sun
 Sandy
 Nuetral
@@ -47,29 +40,32 @@ Blackberries are a very easy fruit to grow.
 
 Green Bean
 Vegetable
-Zone:3,4,5,6,7,8,9,10
+3,4,5,6,7,8,9,10
 Full Sun
 Loamy
+Slightly Acidic
 Pole and bush beans (more commonly called green beans) are a tender vegetable and a great addition to any garden, great eaten fresh off the plant or incorporated into a recipe.
 
 Raspberry
 Fruit
-Zone:2,3,4,5,6,7
+2,3,4,5,6,7
 Full Sun
 Any
+Acidic
 Raspberrie's are relatively easy to grow, and with proper care, can bear fruit indefinitely. Don’t limit yourself to the common red raspberry; try growing purple as well!
 
 Cucumber
 Vegetable
-Zone:4,5,6,7,8,9,10,11
+4,5,6,7,8,9,10,11
 Full Sun
 Loamy
-Cucumbers are a warm-season vegetable planted outside in the ground no earlier than 2 weeks after last spring frost date.
-Most varieties will grow in any amount of space, thanks to the plant's ability to climb. 
+Slightly Acidic
+Cucumbers are a warm-season vegetable planted outside in the ground no earlier than 2 weeks after last spring frost date. Most varieties will grow in any amount of space, thanks to the plant's ability to climb. 
 
 Basil
 Herb
-Zone:3
+3
 Full Sun
 Loamy
+Acidic
 Basil is a leafy, fragrant annual with a bushy appearance. The most common type of basil is sweet basil. Basil is easy to grow and works well in Italian dishes, but it only grows in the summer, so plan accordingly.
