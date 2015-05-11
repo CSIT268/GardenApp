@@ -128,6 +128,7 @@ public class Plant extends Activity
 		int id = item.getItemId();
 		if (id == R.id.action_settings) 
 		{
+			finish();
 			return true;
 		}
 		else if (id == R.id.mygarden) 
