@@ -22,7 +22,7 @@ package net.andoidbootcamp.gardenapp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlantInfo 
+public class PlantInfo
 {
 
 	private String name, type, soilType, soilPH, des, sunExp;

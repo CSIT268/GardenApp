@@ -163,7 +163,7 @@
         android:id="@+id/textViewPlantType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageViewPlantImage"
+        android:layout_below="@+id/txtViewPlantName"
         android:layout_alignLeft="@+id/txtViewPlantName"
         android:text="Vegetable" />
 

@@ -46,6 +46,8 @@ public class MyGarden extends Activity
         }
         
         setListeners();
+        
+        txtViewMyZone.setText(""+StaticVariables.myZone);
 
 	}
 	
@@ -83,11 +85,12 @@ public class MyGarden extends Activity
 			public void onItemClick(AdapterView<?> l, View v, int position,
 					long id) 
 			{
-				StaticVariables.selectedPlant = StaticVariables.plants.get(position);
+				StaticVariables.selectedPlant = StaticVariables.myGarden.get(position);
 				startActivity(new Intent(MyGarden.this, Plant.class));
 			}
 			
 		});
+
 	}
 
 	@Override

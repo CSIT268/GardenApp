@@ -1,10 +1,16 @@
+//************************************************************************
+//	Plant.java							Garden App
+//	Created: 05/04/2015
+//	
+//	This activity displays the selected plant info by pulling the 
+//	info from the selectedPlant static variable in StaticVariables class.
+//
+//************************************************************************
+
 package net.andoidbootcamp.gardenapp;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,7 +25,7 @@ public class Plant extends Activity
 {
 
 	private TextView txtViewName, txtViewType, txtViewZone, 
-		txtViewSun, txtViewSoil, txtViewPh, txtViewDes; // text view for plant info
+		txtViewSun, txtViewSoil, txtViewPh, txtViewDes, txtViewMyZone; // text view for plant info
 	private Button btnAdd; // add button
 	private ImageView imageViewPlant; //plant image
 	
@@ -46,6 +52,7 @@ public class Plant extends Activity
 		txtViewSoil = (TextView)findViewById(R.id.TextViewSoilValue);
 		txtViewPh = (TextView)findViewById(R.id.TextViewSoilPhValue);
 		txtViewDes = (TextView)findViewById(R.id.TextViewDesValue);
+		txtViewMyZone = (TextView)findViewById(R.id.textViewMyGardenZoneValue);
 		
 		imageViewPlant = (ImageView)findViewById(R.id.imageViewPlantImage);
 		
@@ -64,6 +71,7 @@ public class Plant extends Activity
 		txtViewSoil.setText(StaticVariables.selectedPlant.getSoilType());
 		txtViewPh.setText(StaticVariables.selectedPlant.getSoilPH());
 		txtViewDes.setText(StaticVariables.selectedPlant.getDes());
+		txtViewMyZone.setText(""+StaticVariables.myZone);
 		
 
 		// get image id. 0 if no image found
